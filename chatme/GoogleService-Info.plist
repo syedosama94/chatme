@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>159131826184-khc85em27herhtr4upua37bii814is4n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.159131826184-khc85em27herhtr4upua37bii814is4n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBnztuOwSGt06HAmjK3cM6BCBArzjddcp0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>159131826184</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>osama.ali.chatme</string>
+	<key>PROJECT_ID</key>
+	<string>chatme-f202b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatme-f202b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:159131826184:ios:d28475b8c01a2b23b4b9bd</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatme-f202b.firebaseio.com</string>
+</dict>
+</plist>
