@@ -17,7 +17,7 @@
 		342D459C24828253001FF118 /* chatmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D459B24828253001FF118 /* chatmeUITests.swift */; };
 		342D45AC24828A2B001FF118 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 342D45AB24828A2B001FF118 /* GoogleService-Info.plist */; };
 		34FA82BA248AEF4B005DD0C2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA82B9248AEF4B005DD0C2 /* SignInViewController.swift */; };
-		34FA82BC248AEF76005DD0C2 /* SignInStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FA82BB248AEF76005DD0C2 /* SignInStoryboard.storyboard */; };
+		34FA82BC248AEF76005DD0C2 /* SignInViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FA82BB248AEF76005DD0C2 /* SignInViewController.storyboard */; };
 		34FA82C0248AF484005DD0C2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA82BF248AF484005DD0C2 /* HomeViewController.swift */; };
 		34FA82C2248AF4D6005DD0C2 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FA82C1248AF4D6005DD0C2 /* HomeViewController.storyboard */; };
 		7B3C0E4D46124ACCBF9C791E /* Pods_chatme_chatmeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23554725B7D98E7C2D37ABC /* Pods_chatme_chatmeUITests.framework */; };
@@ -61,7 +61,7 @@
 		342D459D24828253001FF118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342D45AB24828A2B001FF118 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		34FA82B9248AEF4B005DD0C2 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		34FA82BB248AEF76005DD0C2 /* SignInStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInStoryboard.storyboard; sourceTree = "<group>"; };
+		34FA82BB248AEF76005DD0C2 /* SignInViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInViewController.storyboard; sourceTree = "<group>"; };
 		34FA82BF248AF484005DD0C2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		34FA82C1248AF4D6005DD0C2 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 		6407DCA9BA822464E3EEB577 /* Pods-chatme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatme.release.xcconfig"; path = "Target Support Files/Pods-chatme/Pods-chatme.release.xcconfig"; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				34FA82B9248AEF4B005DD0C2 /* SignInViewController.swift */,
-				34FA82BB248AEF76005DD0C2 /* SignInStoryboard.storyboard */,
+				34FA82BB248AEF76005DD0C2 /* SignInViewController.storyboard */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -332,7 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34FA82BC248AEF76005DD0C2 /* SignInStoryboard.storyboard in Resources */,
+				34FA82BC248AEF76005DD0C2 /* SignInViewController.storyboard in Resources */,
 				342D458624828253001FF118 /* LaunchScreen.storyboard in Resources */,
 				34FA82C2248AF4D6005DD0C2 /* HomeViewController.storyboard in Resources */,
 				342D45AC24828A2B001FF118 /* GoogleService-Info.plist in Resources */,

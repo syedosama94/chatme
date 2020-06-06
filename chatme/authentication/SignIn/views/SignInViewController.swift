@@ -19,11 +19,13 @@ class SignInViewController : UIViewController {
     
     
     @IBAction func onSignInPressed(_ sender: Any) {
+        print("yo there")
         
         Auth.auth().signIn(withEmail: "adnan@gmail.com", password: "programmer") { [weak self] authResult, error in
           guard let strongSelf = self else { return }
           // ...
-            
+            print(authResult)
+            print (error)
            let homeStoryBoard = UIStoryboard(name: "HomeViewController", bundle: Bundle.main)
            let homeViewController = homeStoryBoard.instantiateInitialViewController()
             self?.navigationController?.pushViewController(homeViewController!, animated: true)

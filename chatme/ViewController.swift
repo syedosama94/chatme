@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let homeStoryBoard = UIStoryboard(name: "SignInViewController", bundle: Bundle.main)
+        let homeViewController = homeStoryBoard.instantiateInitialViewController()
+         self.navigationController?.pushViewController(homeViewController!, animated: true)
     }
     
     

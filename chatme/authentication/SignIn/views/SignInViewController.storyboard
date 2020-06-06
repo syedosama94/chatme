@@ -38,7 +38,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="onSignInPressed:" destination="btt-iu-o6a" eventType="touchUpInside" id="CDC-Ix-gdv"/>
+                                    <action selector="onSignInPressed:" destination="btt-iu-o6a" eventType="touchUpInside" id="lmz-HO-8RJ"/>
                                 </connections>
                             </button>
                         </subviews>
